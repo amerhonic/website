@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff7e7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li a button {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10%;
+}
+.nav {
+  text-decoration: none;
+  padding-top: 20px;
+}
+.nav li {
+  display: inline-block;
+  text-decoration: none;
+}
+.nav li a {
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+header button {
+  padding: 7px 7px;
+  background-color: #f95c19;
+  border: none;
+  border-radius: 0px;
+  color: rgb(249, 249, 249);
+  margin-left: 15px;
+}
+button:hover {
+  background-color: #f95c19;
+}
+header img {
+  margin-right: auto;
+}
+a {
+  padding-top: 20px;
+  margin-left: 5px;
+}
+.section {
+  color: #11111d;
+  display: flex;
+  padding-top: 130px;
+  margin-left: 121.96px;
+  margin-right: 121.96px;
+}
+.section img {
+  height: 300px;
+  margin-left: 300px;
+  width: 700px;
+}
+.section h1 {
+  padding-top: 50px;
+  font-size: 2.58rem;
+  width: 150%;
+  color: #303030;
+}
+.section h5 {
+  margin-top: 10px;
+}
+
+.dugme a button {
+  margin-top: 40px;
+  margin-left: 0px;
+  background-color: #f95c19;
+  border: none;
+  border-radius: 0px;
+  color: rgb(249, 249, 249);
+  padding: 7px 7px;
+}
+.dugme i {
+  padding-left: 5px;
+}
