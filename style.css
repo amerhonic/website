@@ -5,7 +5,7 @@
 }
 body {
   background-color: #fff7e7;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 li a button {
   font-weight: 500;
@@ -56,6 +56,7 @@ a {
   padding-top: 130px;
   margin-left: 121.96px;
   margin-right: 121.96px;
+  padding-bottom: 200px;
 }
 .section img {
   height: 300px;
@@ -83,4 +84,95 @@ a {
 }
 .dugme i {
   padding-left: 5px;
+}
+.servisi {
+  text-align: center;
+  padding-top: 70px;
+}
+.servisi h5 {
+  color: #f95c19;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+.kartice {
+  padding: 28.8px 16px;
+  display: flex;
+  justify-content: center;
+  margin-right: 57px;
+  margin-left: 57px;
+}
+.kartica {
+  height: 450px;
+  width: 350px;
+  background-color: white;
+  margin: 11px;
+  border: 1px;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 45px;
+  padding-bottom: 13px;
+}
+.kartica img {
+  vertical-align: middle;
+  height: 65px;
+  max-width: 100%;
+}
+.kartica h4 {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.kartica p {
+  color: #2f2e41;
+  line-height: 20px;
+  text-align: justify;
+  font-size: small;
+  margin-bottom: 16px;
+}
+.kartica li {
+  text-align: left;
+  padding-left: 0px;
+  margin-bottom: 8px;
+}
+.kartica ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 55px;
+}
+.kartica i {
+  font-size: 7px;
+  padding-right: 8px;
+  color: #f95c19;
+}
+
+.tapkanje {
+  width: 100%;
+  height: 30px;
+  color: #f95c19;
+  background-color: white;
+  padding: 6px 12px 6px;
+  border-color: #f95c19;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tapkanje:hover {
+  color: white;
+}
+.stiskanje {
+  border: 0.5px;
+  border-color: #f95c19;
+  border-radius: 4px;
+}
+.bacanje button {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: #f95c19;
+  padding: 6px 12px 6px;
+  border-color: #f95c19;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bacanje button:hover {
 }
